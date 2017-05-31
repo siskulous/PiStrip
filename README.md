@@ -62,8 +62,8 @@ sudo chmod +x /bin/*.py
 ```
 Add the following lines to your crontab:
 
-\* * * * * checkSched.py
-@reboot init.py
+- \* * * * * checkSched.py
+- @reboot init.py
 
 Point a browser at your Pi. You should see the control interface for your power strip.
 
